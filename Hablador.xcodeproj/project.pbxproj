@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5EB654AF1E5103C000E07D2C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB654AE1E5103C000E07D2C /* AppDelegate.swift */; };
+		5EB654B11E5103C000E07D2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EB654B01E5103C000E07D2C /* Assets.xcassets */; };
+		5EB654B41E5103C000E07D2C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5EB654B21E5103C000E07D2C /* MainMenu.xib */; };
+		5EB654BF1E5103C000E07D2C /* HabladorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB654BE1E5103C000E07D2C /* HabladorTests.swift */; };
+		5EB654CA1E5103C100E07D2C /* HabladorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB654C91E5103C100E07D2C /* HabladorUITests.swift */; };
+		5EB654DB1E5106D600E07D2C /* MainWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB654D91E5106D600E07D2C /* MainWindowController.swift */; };
+		5EB654DC1E5106D600E07D2C /* MainWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5EB654DA1E5106D600E07D2C /* MainWindowController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5EB654BB1E5103C000E07D2C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5EB654A31E5103BF00E07D2C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5EB654AA1E5103C000E07D2C;
+			remoteInfo = Hablador;
+		};
+		5EB654C61E5103C100E07D2C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5EB654A31E5103BF00E07D2C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5EB654AA1E5103C000E07D2C;
+			remoteInfo = Hablador;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5EB654AB1E5103C000E07D2C /* Hablador.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hablador.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EB654AE1E5103C000E07D2C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5EB654B01E5103C000E07D2C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5EB654B31E5103C000E07D2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		5EB654B51E5103C000E07D2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5EB654BA1E5103C000E07D2C /* HabladorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HabladorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EB654BE1E5103C000E07D2C /* HabladorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabladorTests.swift; sourceTree = "<group>"; };
+		5EB654C01E5103C100E07D2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5EB654C51E5103C100E07D2C /* HabladorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HabladorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EB654C91E5103C100E07D2C /* HabladorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabladorUITests.swift; sourceTree = "<group>"; };
+		5EB654CB1E5103C100E07D2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5EB654D91E5106D600E07D2C /* MainWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainWindowController.swift; sourceTree = "<group>"; };
+		5EB654DA1E5106D600E07D2C /* MainWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindowController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5EB654A81E5103C000E07D2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EB654B71E5103C000E07D2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EB654C21E5103C100E07D2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5EB654A21E5103BF00E07D2C = {
+			isa = PBXGroup;
+			children = (
+				5EB654AD1E5103C000E07D2C /* Hablador */,
+				5EB654BD1E5103C000E07D2C /* HabladorTests */,
+				5EB654C81E5103C100E07D2C /* HabladorUITests */,
+				5EB654AC1E5103C000E07D2C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5EB654AC1E5103C000E07D2C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5EB654AB1E5103C000E07D2C /* Hablador.app */,
+				5EB654BA1E5103C000E07D2C /* HabladorTests.xctest */,
+				5EB654C51E5103C100E07D2C /* HabladorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5EB654AD1E5103C000E07D2C /* Hablador */ = {
+			isa = PBXGroup;
+			children = (
+				5EB654D81E5103ED00E07D2C /* Views */,
+				5EB654D71E5103E200E07D2C /* Controllers */,
+				5EB654AE1E5103C000E07D2C /* AppDelegate.swift */,
+				5EB654B01E5103C000E07D2C /* Assets.xcassets */,
+				5EB654B21E5103C000E07D2C /* MainMenu.xib */,
+				5EB654B51E5103C000E07D2C /* Info.plist */,
+			);
+			path = Hablador;
+			sourceTree = "<group>";
+		};
+		5EB654BD1E5103C000E07D2C /* HabladorTests */ = {
+			isa = PBXGroup;
+			children = (
+				5EB654BE1E5103C000E07D2C /* HabladorTests.swift */,
+				5EB654C01E5103C100E07D2C /* Info.plist */,
+			);
+			path = HabladorTests;
+			sourceTree = "<group>";
+		};
+		5EB654C81E5103C100E07D2C /* HabladorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5EB654C91E5103C100E07D2C /* HabladorUITests.swift */,
+				5EB654CB1E5103C100E07D2C /* Info.plist */,
+			);
+			path = HabladorUITests;
+			sourceTree = "<group>";
+		};
+		5EB654D71E5103E200E07D2C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5EB654D91E5106D600E07D2C /* MainWindowController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		5EB654D81E5103ED00E07D2C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5EB654DA1E5106D600E07D2C /* MainWindowController.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5EB654AA1E5103C000E07D2C /* Hablador */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EB654CE1E5103C100E07D2C /* Build configuration list for PBXNativeTarget "Hablador" */;
+			buildPhases = (
+				5EB654A71E5103C000E07D2C /* Sources */,
+				5EB654A81E5103C000E07D2C /* Frameworks */,
+				5EB654A91E5103C000E07D2C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hablador;
+			productName = Hablador;
+			productReference = 5EB654AB1E5103C000E07D2C /* Hablador.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5EB654B91E5103C000E07D2C /* HabladorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EB654D11E5103C100E07D2C /* Build configuration list for PBXNativeTarget "HabladorTests" */;
+			buildPhases = (
+				5EB654B61E5103C000E07D2C /* Sources */,
+				5EB654B71E5103C000E07D2C /* Frameworks */,
+				5EB654B81E5103C000E07D2C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5EB654BC1E5103C000E07D2C /* PBXTargetDependency */,
+			);
+			name = HabladorTests;
+			productName = HabladorTests;
+			productReference = 5EB654BA1E5103C000E07D2C /* HabladorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5EB654C41E5103C100E07D2C /* HabladorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EB654D41E5103C100E07D2C /* Build configuration list for PBXNativeTarget "HabladorUITests" */;
+			buildPhases = (
+				5EB654C11E5103C100E07D2C /* Sources */,
+				5EB654C21E5103C100E07D2C /* Frameworks */,
+				5EB654C31E5103C100E07D2C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5EB654C71E5103C100E07D2C /* PBXTargetDependency */,
+			);
+			name = HabladorUITests;
+			productName = HabladorUITests;
+			productReference = 5EB654C51E5103C100E07D2C /* HabladorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5EB654A31E5103BF00E07D2C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Leonardo Guzman";
+				TargetAttributes = {
+					5EB654AA1E5103C000E07D2C = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					5EB654B91E5103C000E07D2C = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5EB654AA1E5103C000E07D2C;
+					};
+					5EB654C41E5103C100E07D2C = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5EB654AA1E5103C000E07D2C;
+					};
+				};
+			};
+			buildConfigurationList = 5EB654A61E5103BF00E07D2C /* Build configuration list for PBXProject "Hablador" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5EB654A21E5103BF00E07D2C;
+			productRefGroup = 5EB654AC1E5103C000E07D2C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5EB654AA1E5103C000E07D2C /* Hablador */,
+				5EB654B91E5103C000E07D2C /* HabladorTests */,
+				5EB654C41E5103C100E07D2C /* HabladorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5EB654A91E5103C000E07D2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EB654B11E5103C000E07D2C /* Assets.xcassets in Resources */,
+				5EB654DC1E5106D600E07D2C /* MainWindowController.xib in Resources */,
+				5EB654B41E5103C000E07D2C /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EB654B81E5103C000E07D2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EB654C31E5103C100E07D2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5EB654A71E5103C000E07D2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EB654DB1E5106D600E07D2C /* MainWindowController.swift in Sources */,
+				5EB654AF1E5103C000E07D2C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EB654B61E5103C000E07D2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EB654BF1E5103C000E07D2C /* HabladorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EB654C11E5103C100E07D2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EB654CA1E5103C100E07D2C /* HabladorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5EB654BC1E5103C000E07D2C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5EB654AA1E5103C000E07D2C /* Hablador */;
+			targetProxy = 5EB654BB1E5103C000E07D2C /* PBXContainerItemProxy */;
+		};
+		5EB654C71E5103C100E07D2C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5EB654AA1E5103C000E07D2C /* Hablador */;
+			targetProxy = 5EB654C61E5103C100E07D2C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5EB654B21E5103C000E07D2C /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5EB654B31E5103C000E07D2C /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5EB654CC1E5103C100E07D2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5EB654CD1E5103C100E07D2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		5EB654CF1E5103C100E07D2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Hablador/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.guzmle.Hablador;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		5EB654D01E5103C100E07D2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Hablador/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.guzmle.Hablador;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		5EB654D21E5103C100E07D2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = HabladorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.guzmle.HabladorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hablador.app/Contents/MacOS/Hablador";
+			};
+			name = Debug;
+		};
+		5EB654D31E5103C100E07D2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = HabladorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.guzmle.HabladorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hablador.app/Contents/MacOS/Hablador";
+			};
+			name = Release;
+		};
+		5EB654D51E5103C100E07D2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = HabladorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.guzmle.HabladorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Hablador;
+			};
+			name = Debug;
+		};
+		5EB654D61E5103C100E07D2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = HabladorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.guzmle.HabladorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Hablador;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5EB654A61E5103BF00E07D2C /* Build configuration list for PBXProject "Hablador" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EB654CC1E5103C100E07D2C /* Debug */,
+				5EB654CD1E5103C100E07D2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EB654CE1E5103C100E07D2C /* Build configuration list for PBXNativeTarget "Hablador" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EB654CF1E5103C100E07D2C /* Debug */,
+				5EB654D01E5103C100E07D2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5EB654D11E5103C100E07D2C /* Build configuration list for PBXNativeTarget "HabladorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EB654D21E5103C100E07D2C /* Debug */,
+				5EB654D31E5103C100E07D2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5EB654D41E5103C100E07D2C /* Build configuration list for PBXNativeTarget "HabladorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EB654D51E5103C100E07D2C /* Debug */,
+				5EB654D61E5103C100E07D2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5EB654A31E5103BF00E07D2C /* Project object */;
+}
